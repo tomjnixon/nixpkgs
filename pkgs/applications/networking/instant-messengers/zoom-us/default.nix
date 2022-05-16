@@ -37,11 +37,11 @@
 }:
 
 let
-  version = "5.10.0.2450";
+  version = "5.10.4.2845";
   srcs = {
     x86_64-linux = fetchurl {
       url = "https://zoom.us/client/${version}/zoom_x86_64.pkg.tar.xz";
-      sha256 = "CoK7kqUXnFmlFb81K7722wIAb2OOTg6NQneo1bD6cYw=";
+      sha256 = "9gspydrGaEjzAM0nK1u0XNm07HTupJ2wnPxCFWy+Nts=";
     };
   };
 
